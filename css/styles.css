@@ -1,0 +1,28 @@
+
+
+
+/*Main page*/
+
+.content-container{
+ float: left;
+ margin: 50px;
+}
+
+.image-container{
+ float: right;
+ margin: 50px;
+ display: block;
+}
+
+.main-image{
+  width: 550px;
+}
+
+.menu-container, .menu-options{
+  margin: 100px;
+}
+
+.menu-options{
+  background-color: #fafafa;
+  padding: 20px;
+}
