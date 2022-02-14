@@ -1,11 +1,14 @@
 
-
+body{
+  font-family: 'Archivo', sans-serif;
+}
 
 /*Main page*/
 
 .content-container{
  float: left;
- margin: 50px;
+ margin-top: 50px;
+ margin-left: 100px;
 }
 
 .image-container{
@@ -19,10 +22,19 @@
 }
 
 .menu-container, .menu-options{
-  margin: 100px;
+  margin: 100px 0px 100px 0px;
 }
 
 .menu-options{
   background-color: #fafafa;
   padding: 20px;
+}
+
+.title{
+  margin: 15px 0px 15px 0px;
+}
+
+.option, .option:hover{
+  text-decoration: none;
+  color: #2264e0 ;
 }
